@@ -1,0 +1,30 @@
+CRITICAL - 2022-06-01 19:35:07 --> Undefined variable: titulo
+#0 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Views\Admin\Home\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\_DocumentosD...', 5, Array)
+#1 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\_DocumentosD...')
+#2 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Home/inde...', Array, true)
+#4 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Home.php(9): view('Admin/Home/inde...')
+#5 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\_DocumentosD...')
+#10 {main}
+CRITICAL - 2022-06-01 20:40:39 --> Undefined variable: grupoUsuario
+#0 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Admin\Usuarios.php(558): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\_DocumentosD...', 558, Array)
+#1 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Admin\Usuarios.php(521): App\Controllers\Admin\Usuarios->buscarGrupoUsuarioOu404()
+#2 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->removeGrupo(18)
+#3 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#4 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\_DocumentosD...')
+#7 {main}
+CRITICAL - 2022-06-01 20:43:36 --> Undefined variable: grupoUsuario
+#0 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Admin\Usuarios.php(558): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\_DocumentosD...', 558, Array)
+#1 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Admin\Usuarios.php(521): App\Controllers\Admin\Usuarios->buscarGrupoUsuarioOu404()
+#2 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->removeGrupo(18)
+#3 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#4 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\_DocumentosD...')
+#7 {main}

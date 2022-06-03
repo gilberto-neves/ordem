@@ -1,0 +1,103 @@
+CRITICAL - 2022-05-31 19:47:13 --> Undefined variable: titulo
+#0 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Views\Admin\Home\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\_DocumentosD...', 5, Array)
+#1 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\_DocumentosD...')
+#2 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Home/inde...', Array, true)
+#4 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Home.php(9): view('Admin/Home/inde...')
+#5 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\_DocumentosD...')
+#10 {main}
+ERROR - 2022-05-31 20:22:39 --> Table 'ordemdb.grupo_usuarios' doesn't exist
+CRITICAL - 2022-05-31 20:22:39 --> Table 'ordemdb.grupo_usuarios' doesn't exist
+#0 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Models\GrupoUsuarioModel.php(38): CodeIgniter\BaseModel->paginate(5)
+#7 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Admin\Usuarios.php(388): App\Models\GrupoUsuarioModel->recuperaGruposDoUsuario(4995, 5)
+#8 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->grupos(4995)
+#9 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#10 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\_DocumentosD...')
+#13 {main}
+CRITICAL - 2022-05-31 21:09:34 --> Arquivo inválido: Admin/Usuarios/grupos.php
+#0 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/Usuarios/...')
+#1 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Usuarios/...', Array, true)
+#2 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Admin\Usuarios.php(417): view('Admin/Usuarios/...', Array)
+#3 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->grupos(4997)
+#4 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#5 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\_DocumentosD...')
+#8 {main}
+CRITICAL - 2022-05-31 22:10:41 --> Call to a member function links() on null
+#0 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Usuarios/...', Array, true)
+#3 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Admin\Usuarios.php(426): view('Admin/Usuarios/...', Array)
+#4 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->grupos(4995)
+#5 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#6 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\_DocumentosD...')
+#9 {main}
+CRITICAL - 2022-05-31 23:40:56 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, int given, called in D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\BaseModel.php on line 799
+#0 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\BaseModel.php(799): CodeIgniter\BaseModel->doProtectFields(1)
+#1 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Admin\Usuarios.php(485): CodeIgniter\BaseModel->insertBatch(Array)
+#2 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->salvarGrupos()
+#3 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#4 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\_DocumentosD...')
+#7 {main}
+CRITICAL - 2022-05-31 23:41:36 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, int given, called in D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\BaseModel.php on line 799
+#0 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\BaseModel.php(799): CodeIgniter\BaseModel->doProtectFields(1)
+#1 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Admin\Usuarios.php(485): CodeIgniter\BaseModel->insertBatch(Array)
+#2 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->salvarGrupos()
+#3 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#4 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\_DocumentosD...')
+#7 {main}
+CRITICAL - 2022-05-31 23:42:39 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, int given, called in D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\BaseModel.php on line 799
+#0 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\BaseModel.php(799): CodeIgniter\BaseModel->doProtectFields(1)
+#1 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Admin\Usuarios.php(485): CodeIgniter\BaseModel->insertBatch(Array)
+#2 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->salvarGrupos()
+#3 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#4 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\_DocumentosD...')
+#7 {main}
+CRITICAL - 2022-05-31 23:47:36 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, int given, called in D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\BaseModel.php on line 799
+#0 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\BaseModel.php(799): CodeIgniter\BaseModel->doProtectFields(1)
+#1 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Admin\Usuarios.php(485): CodeIgniter\BaseModel->insertBatch(Array)
+#2 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->salvarGrupos()
+#3 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#4 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\_DocumentosD...')
+#7 {main}
+CRITICAL - 2022-05-31 23:53:53 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, int given, called in D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\BaseModel.php on line 799
+#0 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\BaseModel.php(799): CodeIgniter\BaseModel->doProtectFields(1)
+#1 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Admin\Usuarios.php(485): CodeIgniter\BaseModel->insertBatch(Array)
+#2 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->salvarGrupos()
+#3 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#4 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\_DocumentosD...')
+#7 {main}
+CRITICAL - 2022-05-31 23:54:38 --> Argument 1 passed to CodeIgniter\BaseModel::doProtectFields() must be of the type array, int given, called in D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\BaseModel.php on line 799
+#0 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\BaseModel.php(799): CodeIgniter\BaseModel->doProtectFields(1)
+#1 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\app\Controllers\Admin\Usuarios.php(485): CodeIgniter\BaseModel->insertBatch(Array)
+#2 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\Usuarios->salvarGrupos()
+#3 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#4 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\_DocumentosDrive\htdocs\cursos\ci4\ordem\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\_DocumentosD...')
+#7 {main}

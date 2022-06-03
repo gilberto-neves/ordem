@@ -1,0 +1,6 @@
+CRITICAL - 2022-05-27 00:32:33 --> Cannot declare class App\Controllers\Grupos, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-27 00:34:45 --> Cannot declare class App\Controllers\Grupos, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
